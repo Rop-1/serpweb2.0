@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Solar Eclipse RP 2.0</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Raleway:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <div class="container header-content">
+            <div class="logo">
+                <div class="logo-icon">
+                    <i class="fas fa-eclipse"></i>
+                </div>
+                <div class="logo-text"><a href="index.html" data-page="home">SOLAR ECLIPSE</a></div>
+            </div>
+            
+            <div class="nav-container">
+                <nav class="nav-links">
+                    <a href="#" class="active" data-page="home"><i class="fas fa-home"></i> Főoldal</a>
+                    <a href="#" data-page="rules"><i class="fas fa-book"></i> Szabályzat</a>
+                    <a href="#" data-page="about"><i class="fas fa-info-circle"></i> Rólunk</a>
+                    <a href="#" data-page="contact"><i class="fas fa-envelope"></i> Kapcsolat</a>
+                    <a href="#" data-page="application"><i class="fas fa-file-alt"></i> Jelentkezés</a>
+                </nav>
+                
+                <div class="search-container">
+                    <i class="fas fa-search search-icon"></i>
+                    <input type="text" id="search-input" placeholder="Keresés...">
+                </div>
+                
+                <button class="mobile-menu-btn">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div id="search-results" class="search-results-container"></div>
+        <section id="home" class="page-content active">
+            <div class="hero">
+                <div class="container hero-content">
+                    <h1>Üdvözlünk a Solar Eclipse RolePlay weboldalán!</h1>
+                    <p>Fedezd fel az izgalmas és valósághű roleplay élményt a GTA V világában. Csatlakozz közösségünkhöz és éld át a legautentikusabb kalandokat!</p>
+                    <div class="hero-btns">
+                        <a href="#" class="btn btn-primary" data-page="application">Jelentkezés</a>
+                        <a href="#" class="btn btn-secondary" data-page="rules">Szabályzat</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="page-section">
+                <div class="container">
+                    <div class="section-header">
+                        <h2>Legfrissebb Hírek</h2>
+                        <p>Maradj naprakész a szerver frissítéseivel, eseményeivel és újdonságaival</p>
+                    </div>
+                    
+                    <div class="news-grid">
+                        <div class="news-card">
+                            <div class="news-img">
+                                <div class="news-date">2025. Június 22.</div>
+                            </div>
+                            <div class="news-content">
+                                <h3>Új ércbányász munka</h3>
+                                <p>Bevezettük a teljesen átalakított bányászati rendszert a Sandy shores-i bánya környékén. Értékes alapanyagokra lelhetsz, és hatékonyabbá tettük a feldolgozási folyamatot.</p>
+                                <span class="news-tag">Frissítés</span>
+                            </div>
+                        </div>
+                        
+                        <div class="news-card">
+                            <div class="news-img">
+                                <div class="news-date">2025. Június 18.</div>
+                            </div>
+                            <div class="news-content">
+                                <h3>Elkezdődött a frakciópályázat</h3>
+                                <p>A mai nappal elkezdődött a frakciópályázatok lebonyolítása, ha szeretnél azon 5 frakció közé tartozni akik már az első nap egy kész frakcióval indulhatnak, akkor siess, mert a helyek végesek! A további információk <a href="discord.solareclipserp.eu">discord</a>-on találhatóak! Ne maradj le!</p>
+                                <span class="news-tag">Esemény</span>
+                            </div>
+                        </div>
+                        
+                        <div class="news-card">
+                            <div class="news-img">
+                                <div class="news-date">2025. Június 14.</div>
+                            </div>
+                            <div class="news-content">
+                                <h3>Új járművek a szerveren</h3>
+                                <p>Frissítettük járműállományunkat több, mint 100 újra gondolt Lore-Friendly autóval, amit az autókereskedésben tudtok megávásolni</p>
+                                <span class="news-tag">Frissítés</span>
+                            </div>
+                        </div>
+
+
+                        <div class="news-card">
+                            <div class="news-img">
+                                <div class="news-date">2025. Június 18.</div>
+                            </div>
+                            <div class="news-content">
+                                <h3>Elkezdődött a frakciópályázat</h3>
+                                <p>A mai nappal elkezdődött a frakciópályázatok lebonyolítása, ha szeretnél azon 5 frakció közé tartozni akik már az első nap egy kész frakcióval indulhatnak, akkor siess, mert a helyek végesek! A további információk <a href="discord.solareclipserp.eu">discord</a>-on találhatóak! Ne maradj le!</p>
+                                <span class="news-tag">Esemény</span>
+                            </div>
+                        </div>
+                        
+                        <div class="news-card">
+                            <div class="news-img">
+                                <div class="news-date">2025. Június 14.</div>
+                            </div>
+                            <div class="news-content">
+                                <h3>Új járművek a szerveren</h3>
+                                <p>Frissítettük járműállományunkat több, mint 100 újra gondolt Lore-Friendly autóval, amit az autókereskedésben tudtok megávásolni</p>
+                                <span class="news-tag">Frissítés</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="rules" class="page-content">
+            <div class="page-section">
+                <div class="container">
+                    <div class="section-header">
+                        <h2>Szabályzat</h2>
+                        <p>Ismerd meg a szerverünk szabályzatát. Mielőtt a szerverre csatlakozol vedd a fáradtságot, hogy elolvasod a lentebb található szabályokat a gördülékeny játék érdekében!</p>
+                    </div>
+                    
+                    <div class="rules-container">
+                        <div class="rule-category active">
+                            <h3><i class="fas fa-chevron-down"></i> Alap fogalmak</h3>
+                            <ul class="rule-list">
+                                <li><strong>RP</strong> - RolePlay</li>
+                                <li><strong>NonRP</strong> - Nem szabályosan játszott szerepjáték - TILOS</li>
+                                <li><strong>IRL</strong> - In Real Life // A való életben, a számítógépen kívül</li>
+                                <li><strong>IG</strong> - In Game // A játékon belül</li>
+                                <li><strong>OOC</strong> - Out Of Character // Karakteren kívül</li>
+                                <li><strong>IC</strong> - In Character // Karakteren belül</li>
+                                <li><strong>IC-OOC</strong> keverés - TILOS</li>
+                                <li><strong>MG</strong> - MetaGaming // OOC információk IC felhasználása - TILOS</li>
+                                <li><strong>DB</strong> - Drive by // Járművel való szándékos elütés - TILOS</li>
+                                <li><strong>Force RP</strong> - A saját RP-d másra erőltetése - TILOS</li>
+                                <li><strong>Fear RP</strong> - Kötelező féltened a karaktered életét, ugyan úgy mint a sajátod </li>
+                                <li><strong>SK</strong> - Spawn Kill // Spawnoláskor való ölés, ide sorolható az interiorból (cpből, tehát pl. a házak) való kilépéskor való ölés - TILOS</li>
+                                <li><strong>AK</strong> - Admin Kill // Szolgálatban lévő admin szándékos megölése - TILOS</li>
+                                <li><strong>DM</strong> - DeathMatch // Indoknélküli ölés - TILOS</li>
+                                <li><strong>PG</strong> - PowerGaming // Hősködés. Olyan dolgokat csinálsz amit a való életben nem mernél megtenni - TILOS</li>
+                                <li><strong>RK</strong> - RevengeKill // Halálod utáni bosszúállás - TILOS</li>
+                                <li><strong>NRK</strong> - Nem reális közlekedés - ENYHÍTETT</li>
+                                <li><strong>CK</strong> - Character kill // Amikor a karaktered véglegesen megölésre kerül, nem csak kórházba kerül</li>
+                            </ul>
+                        </div>
+                        <div class="rule-category">
+                            <h3><i class="fas fa-chevron-down"></i> Kiemelt/fontos szabályok</h3>
+                            <ul class="rule-list">
+                                <li>A szerver Amerikai jogszabályokra épül!</li>
+                                <li>A szerveren könnyített NRK van érvényben.</li>
+                                <li>Kötelező a hangcsevegés, hisz a szerver voice RP.</li>
+                                <li>A szerverünkön a DB (Drive By), magyarul járművel történő szándékos elütés normális keretek között, ha az RP megköveteli engedélyezett, másrészt pedig TILTOTT!</li>
+                                <li>Könnyített NRK szabályzat nem jogosít fel PG-re és Hanyag RP-re!</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="rule-category">
+                            <h3><i class="fas fa-chevron-down"></i> Alap szabályok</h3>
+                            <ul class="rule-list">
+                                <li>TILOS IC bármilyen szabályra, OOC fogalomra utalni/célozni. Például Mákosguba, Magnézium..stb stb</li>
+                                <li>TILOS bármilyen OOC dologra IC kifejezést használni. Pl. Istenek, Bogaras dolgok, "Az én szememben.." stb..</li>
+                                <li>TILOS az OOC becenevek használata ic PL: discord név stb.</li>
+                                <li>TILOS a Discord RP. ( Képernyő megosztása RP szituáció közben, IC információk tárolása / megosztása Discordon )</li>
+                                <li>TILOS a külső modifikációk használata amik előnyhöz juttatnak más játékosokkal szemben. (  Célkereszt, textúra modok, Fegyver skinek )</li>
+                                <li>TILOS a rendvédelemmel szembeni irreális viselkedés.</li>
+                                <li>TILOS a hangfelismerés, amennyiben a másik fél teljes maszkot visel.</li>
+                                <li>TILOS a nem RP-be illő hangeffektek használata.</li>
+                                <li>A szerveren könnyített NRK van érvényben.</li>
+                                <li>Mindig törekedjünk arra, hogy az RP megőrizze minőségét, de mégis mindenki számára élvezhető legyen!</li>
+                                <li>Mindig maradj hű a karakteredhez, cselekedj ahhoz hűen, viselkedj, öltözködj is úgy!</li>
+                                <li>Mindig maradj karakterben még nonRP esetén is. Majd ha vége a szituációnak jelezd Admin felé.- Példa: Autóval való nagyobb ütközéskor kötelessége a karakterednek a szituációtól mérten sérültnek lennie.</li>
+                                <li>Frakciódhoz hűen RP-z!</li>
+                                <li>Mozgásképtelen állapotban az RP szituációjának megfelelően viselkedj. - Példa: Egy RP szituációt lezáró kivégzés esetén nem beszélsz és nem hívsz mentőt míg mozgásképtelen állapotban vagy.</li>
+                                <li>A szerveren csak teljes CK esetén van halál, amikor a Kórházban térsz magadhoz azt amnéziának nevezzük. A történteket a társaid viszont elmesélhetik neked.</li>
+                                <li>RP előzmény nélkül az alpári magatartás TILOS, valamint k@rva anyázni szintén TILOS.</li>
+                                <li>Tilos olyan cselekedet, amikre nincs kifejezett script és itemek működését befolyásolják. (Például: Elvenni a telefonból és rádióból csak az akkumulátort. (Vedd el ilyen esetben a telefont és a rádiót, vagy kötözd még és nem tudja használni a player.))</li>
+                                <li>Tilos illegális tevékenységek során beépített túszt alkalmazni.</li>
+                                <li>Olyan cselekvésekre, amikre kifejezetten van script köteles vagy használni a scriptet, nem lehet szóban "rpzni". (Példa: Valakit megkötözni, csak a kötél itemmel lehet, ha szóban teszed nem érvényes.)</li>
+                                <li>Olyan cselekvésekre, amikre kifejezetten van script nem vagy köteles mellette szóban is rpzni.</li>
+                                <li>Ne keresd azokat az utakat amivel gyorsan tudsz pénzhez jutni, miközben ez a fajta mód az RP kárára megy. </li>
+                                <li>Mindig az RP legyen az első ne a pénz.</li>
+                                <li>Az illegális craft helyeken a szövetkezés engedélyezett. </li>
+                                <li>Az illegális craft helyek nem DM Zónák! Tilos előzetes RP szál, vagy tárgyalás nélkül lövöldözést és leszámolást kezdeményezni ezeken a helyeken is! </li>
+                                <li>A frakciók csak saját frakció tagjaikkal együtt használhatják a craft helyeket! </li>
+                                <li>Tilos vegyülni két frakciónak illetve tilos  vegyülni a frakcióknak 3. személyekkel, akik nincsenek frakcióban!</li>
+                                <li>Illegális cselekmények és bizniszek esetén, tilos utalással teljesíteni a fizetést! Kizárólag készpénzben lehet ezeket az ügyleteket intézni.</li>
+                                <li>Amennyiben kirabolsz valakit, csak azt veheted el tőle ami az inventoryjában található.</li>
+                                <li>Ugratókat csak olyan módon és mértékben lehet használni, amilyen mértékben a jàték lehetőséget ad rá. Ha van kiépített ugrató, akkor használhatod, de ahol falról, vagy fal részletről pattan át az autó, azok tiltottak. Az adminok az adott ügyhöz mérten, sajátmérlegelésük alapján eldönthetik, hogy az ugrató használata tiltott vagy engedélyezett.</li>
+                                <li>Amennyiben az E betűvel magadhoz térsz akkor az utolsó RP szituációban nem vehetsz újra részt és nem emlékezhetsz rá</li>
+                                <li>A rendvédelem illetve az EMS-el kapcsolatos ruhákat tilos felvenni, amennyiben nem vagy ezen frakciók tagja.</li>
+                                <li>Golyó általi "eszméletvesztés" utáni felsegítést követően TILOS lövöldözni, egyedül mozogni, járművet vezetni, csak megfelelő mentős ellátás után lehetséges ezeket újra megtenni, de nem mehetsz vissza ugyanabba a lövöldözésbe.</li>
+                                <li>"Eszméletvesztés" utáni felsegítést követően TILOS lövöldözni, egyedül mozogni, járművet vezetni, csak megfelelő mentős ellátás után lehetséges ezeket újra megtenni, de lövöldözni nem mehetsz vissza ugyanabba a lövöldözésbe.</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="rule-category">
+                            <h3><i class="fas fa-chevron-down"></i> Alap szabályok 2</h3>
+                            <ul class="rule-list">
+                                <li>Lövöldözés esetén csak akkor lehet a halottakat kilootolni ha az rp és a lövöldözésnek vége. Más esetben TILTOTT!</li>
+                                <li>RP előzmény és indok nélkül másokat kirabolni TILOS!</li>
+                                <li>Rendvédelmi, EMS, Szerelő szolgálatban lévő személyeket NYOMÓS INDOK nélkül nélkül TILOS lootolni!</li>
+                                <li>Rendvédelmi, EMS, tagoktól szolgálati tárgyakat elvenni tilos! (Combat Pisztoly, Sokkoló, Gumibot egyéb fegyverek)</li>
+                                <li>EMS, Szerelő személyeket ha esetre mennek, eseten vannak, esetről jönnek TILOS elrabolni, kirabolni!</li>
+                                <li>DM szójárást rp közben tiltott használni!</li>
+                                <li>Golyóálló sisakok használata TILTOTT! Kivételt képez a motoros bukósisak akkor ha az motorozáshoz van használva, utána és előtte úgyszint TILTOTT!</li>
+                                <li>Tilos másik játékostárs IC megerőszakolása, amennyiben azt megelőzően nem egyezett bele OOC, hogy IC eljátssza.</li>
+                                <li>Tilos ruhaboltban PED-et változtatni előzetes vezetőségi engedély nélkül!</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="rule-category">
+                            <h3><i class="fas fa-chevron-down"></i> Publikus területek</h3>
+                            <ul class="rule-list">
+                                <li>A szerveren nincsenek konkrét publikus területek, viszont minden olyan forgalmas hely mint pl.: PD, Kórház...stb stb ic előzmény, RP szál nélkül csak a legminimálisabb mértékben lehet az illegális tevékenység színtere pl.: információ, tárgy csere.</li>
+                                <li>A fent említett helyek nem szolgálhatnak direkt, huzamosabb AFK-olásra.</li>
+                            </ul>
+                        </div>
+
+
+                        <div class="rule-category">
+                            <h3><i class="fas fa-chevron-down"></i> Rendvédelmi szabályzat</h3>
+                            <ul class="rule-list">
+                                <li>A rendvédelemnek nem kötelező üldözéskor a GOV-olás, elég a szóbeli felszólítás. Viszont minden esetben kell figyelni a környezetre, az üldözésre, törekedniük kell az élvezhető rp-re!</li>
+                                <li>A rendvédelem számára a túszok élete az első. Viszont, ha az IC rp szál megköveteli akkor ez figyelmenkívül hagyható.</li>
+                                <li>A rendvédelemnek meg kell adni a kért követeléseket, viszont megpróbálhatja kijátszani azt.</li>
+                                <li>A rendvédelmisnek jogában áll előre lőni, ha arra kerül a sor, viszont ezt el kell kerülnie, ha lehetséges.</li>
+                                <li>A rendvédelmis pitmanővert csak is akkor hajthat végre, ha meggyőződött róla, hogy az nem fog súlyos kárt okozni, nincs forgalmas területen.</li>
+                            </ul>
+                        </div>
+
+
+                        <div class="rule-category">
+                            <h3><i class="fas fa-chevron-down"></i> Korrupció szabályzat </h3>
+                            <ul class="rule-list">
+                                <li>A szerveren a korrupció egy szintig engedélyezett, ha van megfelelő IC előzménye és rp indoka.</li>
+                                <li>Ha valakit korrupción kapnak az a korrupció mérsékétől függően egészen a karakter CK-ig kaphat büntetést.</li>
+                                <li>A frakcióból az itemek, fegyverek eladása, kiadása csak nagyon mérsékelt szintig engedélyezett, mindig kell arra is gondolni, hogy mi fog történni ha azt onnan kiveszem.</li>
+                            </ul>
+                        </div>
+
+
+                        <div class="rule-category">
+                            <h3><i class="fas fa-chevron-down"></i> Frakció szabályzat</h3>
+                            <ul class="rule-list">
+                                <li>Egy frakcóban minimum 10 napot kell eltöltened.</li>
+                                <li>Egy frakciónak a leader, al-leader száma a frakció típuástól, IC eseményszáltól, létszámtól függhet, változhat.</li>
+                                <li>A frakciónak mindig hűnek kell lennie a történetéhez és az általa képviselt stílushoz.</li>
+                                <li>A frakció ne arra törekedjen, hogy az legyen a legnagyobb létszámmal rendelkező frakció ha az az rp rovására megy.</li>
+                                <li>Ha van rá megfelelő indok, előzmény akkor frakciók szövetkezhetnek egymással pl.: 1 frakció elnyomásban tartja a többit, ezért a többi frakció szövetségbe lép az az 1 frakció ellen.</li>
+                                <li>A frakciók egy rp szál végéig vagy egy megkötött ideig lehetnek érvényben, ezt akár megzavarhatja egy ic esemény. Mindenféle képpen kell egy lezáró rpnek történnie.</li>
+                                <li>Egy frakció vezetőségének leváltása lehetséges, ha van megfelelő ic rp szála, előzménye. Egy leváltást követően lehetőség van a leváltott leaderek teljes ckzására is, de ha nem követeli meg az rp akkor egy szimpla frakcióból eltávolításaal letudható.</li>
+                                <li>A leadereknek a frakcióhoz megfelelő karaktert  kötelező rpzniük (és fordítva is), ugyanúgy a tagok is, ha van rá megfelelő rp felépítve akkor lehet kivétel.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="about" class="page-content">
+            <div class="page-section">
+                <div class="container">
+                    <div class="section-header">
+                        <h2>Rólunk</h2>
+                        <p>Ismerd meg a Solar Eclipse FiveM szerver történetét és filozófiáját</p>
+                    </div>
+                    
+                    <div class="rules-container">
+                        <h3>A Solar Eclipse története</h3>
+                        <p>A Solar Eclipse 2021-ben alakult egy kis, lelkes RP rajongók csoportjából, akik unalmukban úgy döntöttek, létrehoznak egy olyan FiveM szervert, ahol a minőségi roleplay és a közösség élmény áll az első helyen.</p>
+                        <p>Azóta több mint 15,000 regisztrált játékos csatlakozott közösségünkhöz, és napi szinten 100-150 aktív játékossal büszkélkedhetünk.</p>
+                        
+                        <h3>Filozófiánk</h3>
+                        <p>Célunk egy olyan környezet megteremtése, ahol a játékosok valódi, mély RP élményekben részesülhetnek, miközben egy barátságos és segítőkész közösség részét képezik.</p>
+                        <p>Hisszük, hogy a minőségi RP és a közösségi élmény kéz a kézben járnak, ezért folyamatosly fejlesztjük szerverünket, hogy minden játékos számára felejthetetlen élményt nyújtsunk.</p>
+                        
+                        <h3>Az admin csapat</h3>
+                        <p>Tapasztalt és elkötelezett admin csapatunk 24/7 készen áll, hogy segítse a játékosokat, fenntartsa a rendet és biztosítsa a zökkenőmentes játékélményt.</p>
+                        <p>Minden adminisztrátorunk részt vesz rendszeres képzéseken, hogy a legjobb szolgáltatást nyújthassuk közösségünknek.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="contact" class="page-content">
+            <div class="page-section">
+                <div class="container">
+                    <div class="section-header">
+                        <h2>Kapcsolat</h2>
+                        <p>Keress minket bármilyen kérdéssel, észrevétellel vagy problémával kapcsolatban</p>
+                    </div>
+                    
+                    <div class="rules-container">
+                        <h3>Kapcsolati lehetőségek</h3>
+                        <p>Discord szerverünkön a leggyorsabban elérsz minket, ahol admin csapatunk és a közösség segítőkész tagjai folyamatosan jelen vannak.</p>
+                        
+                        <div style="background: rgba(0, 101, 126, 0.1); padding: 25px; border-radius: 10px; margin: 25px 0;">
+                            <h4 style="color: var(--accent-color); margin-bottom: 15px;"><i class="fab fa-discord"></i> Discord Szerver</h4>
+                            <p>Csatlakozz Discord közösségünkhöz, ahol minden információt megtalálsz:</p>
+                            <div style="background: rgba(30, 30, 30, 0.5); padding: 15px; border-radius: 8px; margin: 15px 0; font-family: monospace; word-break: break-all;">
+                                https://discord.solareclipserp.eu
+                            </div>
+                            <a href="https://discord.solareclipserp.eu" target="_blank" class="btn btn-primary" style="margin-top: 10px;">Csatlakozás most</a>
+                        </div>
+                        
+                        <h3>Egyéb elérhetőségek</h3>
+                        <p>Ha Discord-on nem tudsz elérni minket, használd az alábbi lehetőségeket:</p>
+                        
+                        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px; margin: 30px 0;">
+                            <div style="background: rgba(30, 30, 30, 0.5); padding: 20px; border-radius: 10px; text-align: center;">
+                                <div style="font-size: 2.5rem; color: var(--accent-color); margin-bottom: 15px;">
+                                    <i class="fas fa-envelope"></i>
+                                </div>
+                                <h4>Email</h4>
+                                <p>info@solareclipserp.eu</p>
+                            </div>
+                            
+                            <div style="background: rgba(30, 30, 30, 0.5); padding: 20px; border-radius: 10px; text-align: center;">
+                                <div style="font-size: 2.5rem; color: var(--accent-color); margin-bottom: 15px;">
+                                    <i class="fab fa-facebook"></i>
+                                </div>
+                                <h4>Facebook</h4>
+                                <p>/SolarEclipseFiveM</p>
+                            </div>
+                            
+                            <div style="background: rgba(30, 30, 30, 0.5); padding: 20px; border-radius: 10px; text-align: center;">
+                                <div style="font-size: 2.5rem; color: var(--accent-color); margin-bottom: 15px;">
+                                    <i class="fas fa-headset"></i>
+                                </div>
+                                <h4>Support Jegy</h4>
+                                <p>support.solareclipse-fivem.hu</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="application" class="page-content">
+            <div class="page-section">
+                <div class="container">
+                    <div class="section-header">
+                        <h2>Jelentkezés</h2>
+                        <p>Csatlakozz közösségünkhöz és légy részese az autentikus RP élménynek</p>
+                    </div>
+                    
+                    <div class="rules-container">
+                        <h3>Jelentkezési folyamat</h3>
+                        <p>A Solar Eclipse szerverre történő jelentkezés több lépésből áll, hogy biztosítsuk a minőségi RP élményt és a közösség védelmét:</p>
+                        
+                        <div style="margin: 30px 0;">
+                            <div style="display: flex; align-items: flex-start; margin-bottom: 30px;">
+                                <div style="background: var(--primary-color); color: white; width: 40px; height: 40px; border-radius: 50%; display: flex; align-items: center; justify-content: center; margin-right: 15px; flex-shrink: 0;">1</div>
+                                <div>
+                                    <h4>Discord Regisztráció</h4>
+                                    <p>Csatlakozz Discord szerverünkre és olvasd el figyelmesen a szabályzatot. A Discord tagok között találod a jelentkezési csatornákat.</p>
+                                </div>
+                            </div>
+                            
+                            <div style="display: flex; align-items: flex-start; margin-bottom: 30px;">
+                                <div style="background: var(--primary-color); color: white; width: 40px; height: 40px; border-radius: 50%; display: flex; align-items: center; justify-content: center; margin-right: 15px; flex-shrink: 0;">2</div>
+                                <div>
+                                    <h4>Jelentkezési űrlap kitöltése</h4>
+                                    <p>Töltsd ki a jelentkezési űrlapot a #jelentkezes csatornában. Az űrlap tartalmaz pár kérdést RP tapasztalataidról és motivációdról.</p>
+                                </div>
+                            </div>
+                            
+                            <div style="display: flex; align-items: flex-start; margin-bottom: 30px;">
+                                <div style="background: var(--primary-color); color: white; width: 40px; height: 40px; border-radius: 50%; display: flex; align-items: center; justify-content: center; margin-right: 15px; flex-shrink: 0;">3</div>
+                                <div>
+                                    <h4>Interjú</h4>
+                                    <p>Az admin csapatunk felveszi veled a kapcsolatot egy rövid hangalapú interjúra, hogy megismerjen és meggyőződjön RP hozzáállásodról.</p>
+                                </div>
+                            </div>
+                            
+                            <div style="display: flex; align-items: flex-start; margin-bottom: 30px;">
+                                <div style="background: var(--primary-color); color: white; width: 40px; height: 40px; border-radius: 50%; display: flex; align-items: center; justify-content: center; margin-right: 15px; flex-shrink: 0;">4</div>
+                                <div>
+                                    <h4>Döntés és belépés</h4>
+                                    <p>Az admin csapat 24-48 órán belül értékeli jelentkezésed és az interjút. Pozitív döntés esetén megkapod a belépési instrukciókat.</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div style="text-align: center; margin-top: 40px;">
+                            <a href="https://discord.solareclipserp.eu" class="btn btn-primary" style="padding: 15px 40px; font-size: 1.2rem;" target="_blank">
+                                Jelentkezés indítása Discord-on
+                            </a>
+                            <p style="margin-top: 15px; color: var(--text-gray);">A gomb a Discord szerverünkre vezet, ahol elkezdheted a jelentkezési folyamatot</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-about">
+                    <div class="footer-logo">SOLAR ECLIPSE</div>
+                    <p>A Solar Eclipse RP egy FiveM szerver, ahol a minőségi roleplay és közösségi élmény áll az első helyen. Egyedi scriptekkel és megoldásokkal felépített szerver. Hetente új frissítésekkel színesítjük a játékélményt. Csatlakozz te is közösségünkhöz!</p>
+                    <div class="social-links">
+                        <a href="https://discord.solareclipserp.eu" target="_blank" class="social-link"><i class="fab fa-discord"></i></a>
+                        <a href="https://www.facebook.com/profile.php?id=61555876626738" target="_blank" class="social-link"><i class="fab fa-facebook"></i></a>
+                        <a href="https://www.instagram.com/solar_eclipse.rp/" target="_blank" class="social-link"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.youtube.com/@SolarEclipseRP" target="_blank" class="social-link"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-links">
+                    <h4>Oldalak</h4>
+                    <ul>
+                        <li><a href="#" data-page="home">Főoldal</a></li>
+                        <li><a href="#" data-page="rules">Szabályzat</a></li>
+                        <li><a href="#" data-page="about">Rólunk</a></li>
+                        <li><a href="#" data-page="contact">Kapcsolat</a></li>
+                        <li><a href="#" data-page="application">Jelentkezés</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-links">
+                    <h4>Hasznos Linkek</h4>
+                    <ul>
+                        <li><a href="">Gyakori Kérdések</a></li>
+                        <li><a href="">Támogatás</a></li>
+                        <li><a href="" data-page="home">Adatvédelmi irányelvek</a></li>
+                        <li><a href="" data-page="home">Felhasználási feltételek</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-contact">
+                    <h4>Kapcsolat</h4>
+                    <p><i class="fas fa-envelope"></i><a href="mailto:info@solareclipserp.eu">info@solareclipserp.eu</a></p>
+                    <p><i class="fab fa-discord"></i> <a target="_blank" href="https://discord.solareclipserp.eu">Solar Eclipse RP Discord</a></p>
+                    <p><i class="fas fa-server"></i> <a target="_blank" href="https://play.solareclipserp.eu:30120">Solar Eclipse RP 2.0</a></p>
+                </div>
+            </div>
+            
+            <div class="copyright">
+                &copy; 2025 Solar Eclipse RP
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
